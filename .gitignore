@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules
+
+# Build output
+dist
+
+# macOS system files
+.DS_Store
+
+# Public files from server
+server/public
+
+# Vite config backups (if you intended to ignore specific files)
+vite.config.ts.*
+
+# Tarball archives
+*.tar.gz
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE specific files
+.vscode
+.idea
